@@ -3,7 +3,7 @@
 ## Welcome to the Solara Executor repository!
 
 ### Repository Description:
-This repository houses the Delta Executor, a powerful Roblox script executor designed for enhancing your gaming experience. Get ready to unlock new possibilities and elevate your gameplay with the Solara Executor.
+This repository houses the Delta Executor, a powerful Roblox script executor designed for enhancing your gaming experience. Get ready to unlock new possibilities and elevate your gameplay with the Delta Executor.
 
 ### Topics:
 - delta executor
