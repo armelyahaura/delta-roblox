@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 1500px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.new_update {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #323232;
+    max-width: 400px;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+.outlined_new {
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9060E8;
+    text-shadow: 2px 2px 5px black;
+    margin-right: 15px;
+}
+
+.new_update .new-text {
+    color: #9060E8;
+}
+
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 2;
+}
+
+
+.header-text h1 {
+    width: 1356;
+    height: 145px;
+    font-size: 75px;
+    color: rgb(255, 216, 252);
+    z-index: 1;
+}
+
+.header-text h2 {
+    font-size: 50px;
+    margin-top: -122px;
+    background: linear-gradient(180deg, #fff 30%, #9900FF 70%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+    z-index: 1;
+}
+
+.header-new-text {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: -30px;
+    z-index: 1;
+}
+
+.header-qq span {
+    background: linear-gradient(180deg, #C46CFF 33%, #9900FF 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: wheat;
+}
+
+.header-qq {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.startik {
+    width: 120px;
+    height: 30px;
+    color: black;
+    background-color: #9900FF;
+    border-radius: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.header-qq a {
+    text-decoration: none;
+    width: 100px;
+
+}
+
+
+.startik:hover {
+    color: white;
+    background-color: #4a007c;
+}
+
+.backeffects {
+    max-width: 100%;
+    height: 800px;
+    position: absolute;
+    left: 225px;
+    top: 120px;
+    z-index: -1;
+}
+
+.photo-executor {
+    max-width: 50%;
+    padding-top: 10px;
+    transform: translateX(0);
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    z-index: 1;
+}
+
+.download-button {
+    padding: 5px;
+}
+
+.download-button a {
+    text-decoration: none;
+}
+
+.down:hover {
+    background-color: #9900FF;
+}
+
+.down {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.bb {
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border: 1px solid #797979;
+    border-radius: 10px;
+    padding: 15px 50px;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.bb:hover {
+    background-color: #9900FF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 4px dashed #9060E8;
+    width: auto;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 50px;
+}
+
+.container-fun h1 {
+    font-size: 50px;
+    background: linear-gradient(180deg, #fff 40%, #9900FF 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.container-fun p {
+    color: white;
+    text-align: left;
+    padding: 0 400px;
+}
+
+.container-inst h1 {
+    font-size: 50px;
+    background: linear-gradient(180deg, #fff 40%, #9900FF 90%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #0B2349;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container-inst p {
+    color: white;
+    text-align: left;
+    margin: 0 -160px;
+}
+
+@media (min-width: 900px) {
+
+    body {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 50px;
+        width: 1500px;
+        font-family: "Montserrat", sans-serif;
+    
+    }
+    
+    .new_update {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #323232;
+        max-width: 400px;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    
+    .outlined_new {
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        background-color: #9060E8;
+        text-shadow: 2px 2px 5px black;
+        margin-right: 15px;
+    }
+    
+    .new_update .new-text {
+        color: #9060E8;
+    }
+    
+    .header-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+    }
+    
+    
+    .header-text h1 {
+        width: 1356;
+        height: 145px;
+        font-size: 75px;
+        color: rgb(255, 216, 252);
+    }
+    
+    .header-text h2 {
+        font-size: 50px;
+        margin-top: -122px;
+        background: linear-gradient(180deg, #fff 30%, #9900FF 70%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+    
+    .header-new-text {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: -30px;
+    }
+    
+    .header-qq span {
+        background: linear-gradient(180deg, #C46CFF 33%, #9900FF 67%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: wheat;
+    }
+    
+    .header-qq {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .header-qq button {
+        width: 120px;
+        height: 30px;
+        color: black;
+        background-color: #9900FF;
+        border-radius: 10px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    
+    .header-qq a {
+        text-decoration: none;
+        width: 100px;
+    
+    }
+    
+    .photo-executor {
+        max-width: 50%;
+        padding-top: 10px;
+    }
+    
+    .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 60px;
+    }
+    
+    .download-button {
+        padding: 5px;
+    }
+    
+    .download-button a {
+        text-decoration: none;
+    }
+    .down {
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        border: 1px solid #797979;
+        border-radius: 10px;
+        padding: 15px 30px;
+    }
+    
+    .bb {
+        background-color: black;
+        font-size: 20px;
+        color: white;
+        border: 1px solid #797979;
+        border-radius: 10px;
+        padding: 15px 50px;
+    }
+    
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border: 4px dashed #9060E8;
+        width: auto;
+        border-left: none;
+        border-right: none;
+        padding-bottom: 50px;
+    }
+    
+    .container-fun h1 {
+        font-size: 50px;
+        background: linear-gradient(180deg, #fff 40%, #9900FF 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+    
+    .container-fun p {
+        color: white;
+        text-align: left;
+        padding: 0 400px;
+    }
+    
+    .container-inst h1 {
+        font-size: 50px;
+        background: linear-gradient(180deg, #fff 40%, #9900FF 90%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: #0B2349;
+    }
+    
+    .container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+    
+    .container-inst p {
+        color: white;
+        text-align: left;
+        margin: 0 -160px;
+    }
+}
